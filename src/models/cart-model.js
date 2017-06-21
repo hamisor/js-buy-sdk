@@ -111,8 +111,10 @@ const CartModel = BaseModel.extend({
     }
 
     // ADD FNX CUSTOM ATTRIBUTE AS NOTE ATTRIBUTE TO THE ORDER
-    let userId = `&attributes[userid]=12345`;
-    return `${baseUrl}/${variantPath}?${query}${userId}`;
+    let userId          = document.getElementsByClassName('shopifyBuyBtnEntryNode')[0].getAttribute('data-userid');
+    let userIdUrlParam  = `&attributes[userid]=${userId}`;
+
+    return `${baseUrl}/${variantPath}?${query}${userIdUrlParam}`;
   },
 
   /**
