@@ -110,7 +110,9 @@ const CartModel = BaseModel.extend({
       }
     }
 
-    return `${baseUrl}/${variantPath}?${query}`;
+    // ADD FNX CUSTOM ATTRIBUTE AS NOTE ATTRIBUTE TO THE ORDER
+    let userId = `&attributes[userid]=12345`;
+    return `${baseUrl}/${variantPath}?${query}${userId}`;
   },
 
   /**

@@ -30,6 +30,6 @@ _site
 docs/src
 docs/api/v*
 docs/api/master
-_site
 .sass-cache
 .jekyll-metadata
+/.idea/
