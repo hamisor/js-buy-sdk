@@ -2103,7 +2103,7 @@ var Config = CoreObject.extend({
   ajaxHeaders: {}
 });
 
-var version$1 = 'v0.7.2-1b05d0f'; // eslint-disable-line
+var version$1 = 'v0.7.2-ef93cb5'; // eslint-disable-line
 
 var BaseModel = CoreObject.extend({
   constructor: function constructor() {
