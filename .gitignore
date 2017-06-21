@@ -18,8 +18,6 @@ WDIO.*.xml
 lib
 es
 /node.js
-/polyfilled.js
-
 
 # Decrypted secrets
 secrets.json
